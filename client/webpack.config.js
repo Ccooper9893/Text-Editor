@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        favicon: './src/images/logo.png',
+        favicon: './favicon.ico',
         title: 'JATE'
       }),
       new WebpackPwaManifest({
