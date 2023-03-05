@@ -44,6 +44,7 @@ module.exports = () => {
             destination: path.join('assets', 'icons'),
           },
         ],
+        id: '/JATE-app'
       }),
     ],
 
