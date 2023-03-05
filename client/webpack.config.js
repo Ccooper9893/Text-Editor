@@ -23,6 +23,10 @@ module.exports = () => {
         favicon: './favicon.ico',
         title: 'JATE',
       }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+      }),
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -41,10 +45,6 @@ module.exports = () => {
           },
         ],
       }),
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'sw-sw.js',
-      }),
     ],
 
     module: {
@@ -55,7 +55,7 @@ module.exports = () => {
         },
         {
           test: /\.m?js$/,
-          exclude: /(node_modules|bower_components)/,
+          exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
             options: {
