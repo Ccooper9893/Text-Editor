@@ -94,16 +94,20 @@ ___
 
 JATE User Interface
 
-<img src="./screenshots/jatepic.png">
+<img src="./screenshots/jatepic.png" alt="A screenshot of the application interface">
+
+Downloaded Application
+
+<img src="./screenshots/appinstalledpic.png" alt="A screenshot of the downloaded application">
 
 App Manifest
 
-<img src="./screenshots/manifestpic.png">
+<img src="./screenshots/manifestpic.png" alt="A screenshot of the app's manifest">
 
 App Service Worker
 
-<img src="./screenshots/swpic.png">
+<img src="./screenshots/swpic.png" alt="A screenshot of the app's service worker">
 
 Installation Prompt
 
-<img src="./screenshots/installpic.png">
+<img src="./screenshots/installpic.png" alt="A screenshot of the app's installation prompt">
