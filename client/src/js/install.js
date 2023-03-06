@@ -4,7 +4,7 @@ const butInstall = document.getElementById('buttonInstall');
 // TODO: Add an event handler to the `beforeinstallprompt` event
 butInstall.style.display = 'none';
 window.addEventListener('beforeinstallprompt', (event) => { //Fires if a PWA can be installed
-    console.log('beforeinstallprompt fired');
+    // console.log('beforeinstallprompt fired');
     window.delayedPrompt = event; //Save prompt display for custom install button click
     butInstall.style.display = 'block';
 });
