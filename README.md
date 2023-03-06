@@ -55,8 +55,6 @@ To ensure the security and accessibility of your data, the app also uses an inde
 
 If you want to access the app quickly, you can install it by clicking on the install button. This will allow you to launch the app from your desktop or home screen.
 
-Overall, the app provides an easy-to-use and reliable solution for text editing, and the continuous saving feature ensures that your work is always safe and accessible.
-
 ## *Software*
 ___
 The application is built using various software technologies to ensure that it is efficient, fast, and user-friendly. The main technologies used in building the app include:
