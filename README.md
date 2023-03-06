@@ -4,9 +4,9 @@
 ## *Description*
 ___
 
-<img src="./client/src/images/logo.png" alt="JATE logo" style="width: 20rem;"> 
+<img src="./screenshots/logopic.png" alt="JATE logo" style="width: 20rem;"> 
 
-JATE is a Progressive Web Application (PWA) that provides users with a simple yet powerful text editor. With JATE, you can create, edit, and save text with ease. The app features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser, ensuring that your data is always safe and accessible.
+JATE(Just Another Text Editor) is a Progressive Web Application (PWA) that provides users with a simple yet powerful text editor. With JATE, you can create, edit, and save text with ease. The app features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser, ensuring that your data is always safe and accessible.
 
 
 
